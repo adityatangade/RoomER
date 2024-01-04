@@ -1,0 +1,124 @@
+/* body {
+     background-color: rgb(253, 244, 213);
+} */
+/* logo  */
+/* .logo div {
+    font-size: 40px;
+    margin-bottom: -20px;
+    font-weight: bold;
+    color:grey;
+    color: rgb(0, 139, 123);
+} */
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding:0px 20px;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+.logo div{
+    font-size:28px;
+    margin-left: 23px;
+    margin-bottom: -20px;
+    font-weight: bold;
+    color: grey;
+    /* color:rgb(0, 139, 123); */
+}
+
+/*register div*/
+.formContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: -25px;
+    /* border: 1px solid #000;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.5);
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 105px; */
+    /* align-items: center;*/
+}
+a{
+    text-decoration: none;
+}
+
+.h1 {
+    margin-bottom: 0px;
+    font-size: 25px;
+}
+
+caption {
+    margin-bottom: 100px;
+}
+
+.inputs {
+    margin: 20px 0px;
+}
+
+.inputs div {
+    margin: 17px 0px;
+    font-size: 17px;
+}
+
+.inputs div input {
+    width: 320px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 3px;
+    /* text-align: center; */
+    padding-left: 10px;
+    font-size: 18spx;
+}
+
+.submit {
+    color: white;
+    margin: 10px 0px;
+    width: 77px;
+    height: 22px;
+    border: 1px;
+    border-radius: 10px;
+    font-size: 14px;
+    background-color: rgb(27, 93, 22);
+}
+.submit:hover{
+    font-weight: bold;
+}
+.inputs div input:hover{
+    border:1px solid skyblue;
+}
+.note{
+    width: 200px;
+}
+.success{
+    color:green;
+    font-size: 20px;
+}
+.error{
+    color: red;
+    font-size: 20px;
+}
+
+.footer{
+    width: 100vw;
+    position: absolute;
+    bottom: 0px;
+}
+
+
+
+/*media queries*/
+@media (max-width:720px){
+    .inputs div {
+        margin: 17px 0px;
+        font-size: 17px;
+        padding-left: 20px;
+    }
+    
+    .inputs div input {
+        width: 250px;
+        height: 17px;
+        border-radius: 3px;
+    }
+}

@@ -1,0 +1,152 @@
+body{
+    width: 100vh;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: -2px -2px 0px 0px;
+    font-family: 'Arial', sans-serif;
+}
+.logo div{
+    font-size: 25px;
+    margin-top: 11px;
+    margin-left: 30px;
+    margin-bottom: -20px;
+    font-weight: bold;
+    color: white;
+    /* color:rgb(0, 139, 123); */
+}
+header{
+    display: flex;
+    background-color: darkcyan;
+    width: 100vw;
+    margin-top: -8px;
+    margin-left: -8px;
+    height: 60px;
+    position: fixed;
+}
+#navbar
+{
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+}
+#navbar ol{
+    display: flex;
+    position: absolute;
+    list-style: none;
+    /* background-color: rgb(237, 93, 93); */
+    padding: 4px;
+    border-radius: 18px;
+    padding-top: 5px;
+    margin-top: 23px;
+    margin-left: 20px;
+}
+#navbar ol li{
+    margin:0px 30px;
+}
+#navbar ol li a{
+    color: black;
+    text-decoration: none;
+    color: white;
+}
+#navbar ol li a:hover{
+    color: black;
+    /* font-weight:bold; */
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+/* content  */
+.content{
+    display: flex;
+    width: 98vw;
+    /* border: 1px solid black; */
+    height: 100vh;
+}
+.filters{
+    /* border: 1px solid black; */
+    width: 15%;
+    /* border-right: 1px solid grey; */
+    padding: 0px 0px 5px 5px;
+    margin-top: 52px;
+}
+.innerfilter{
+    position: fixed;
+    width: 200px;
+    height: 100vh;
+    border-right: 1px solid grey ;
+}
+.type{
+    margin: 10px 5px;
+    margin-bottom: 20px;
+    margin-top: 35px;
+}
+.tenant{
+    margin: 10px 5px;
+    margin-bottom: 20px;
+}
+.budget{
+    margin: 10px 5px;
+    margin-bottom: 20px;
+}
+/* write css for profile here */
+.profile{
+    display: flex;
+    flex-direction: column;
+    position:fixed;
+    bottom :10px;
+    margin-left: 12px;
+    align-items: center;
+}
+.profilepic{
+    width: 30px;
+    height: 30px;
+    border: 2px solid grey;
+    border-radius: 50%;
+    margin-top: 2px;
+}
+.profilelink{
+    margin-top: 1px;
+    padding-left: 2px;
+    display: inline-block;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+.profilelink a{
+    text-decoration: none;
+    color: black;
+}
+
+.properties{
+    width: 85%;
+    margin-top: 35px;
+    padding: 10px;
+    /* border: 1px solid black; */
+}
+.searchBox{
+    position: absolute;
+    right: 20px;
+    margin-top: 15px;
+}
+.search{
+    width: 225px;
+    height: 25px;
+    border: 4px;
+    border-radius: 0px;
+    margin-left: 0px;
+    margin-right: -60px;
+    padding-left: 3px;
+    padding-right: 62px;
+    margin-top:4px;
+}
+.btn_search{
+    height: 27px;
+    border: 1px;
+    border-radius: 1px;
+    background-color: rgb(169, 169, 169);
+    color: white;
+    font-weight: bold;
+}

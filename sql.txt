@@ -1,0 +1,1 @@
+INSERT INTO `userdata` (`srno`, `name`, `phone`, `email`, `password`, `dt`) VALUES ('1', 'Aditya Nivas Tangade', '9356966539', 'adityatangde027@gmail.com', 'aditya@123', current_timestamp());
