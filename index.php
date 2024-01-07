@@ -93,7 +93,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] != true) {
                     </select>
                 </div>
                 <div class="profile">
-                    <div><img src="Images/AdityaProfile.jpg" alt="" class="profilepic"></div>
+                    <div><img src="" alt="profile" class="profilepic"></div>
                     <div class="profilelink"><a href="Your_Profile.html"><?php echo $_SESSION['username'] ?></a></div>
                 </div>
             </div>
