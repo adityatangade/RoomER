@@ -9,6 +9,11 @@
     color:grey;
     color: rgb(0, 139, 123);
 } */
+body{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
 .logo{
     display: flex;
     flex-direction: column;
