@@ -73,7 +73,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <input type="submit" value="Login" class="formIpLogin">
                 </div>
                 <div class="askSignUp">
-                    Don't have an account?<a href="/register.php">Sign Up</a>
+                    Don't have an account?<a href="register.php">Sign Up</a>
                 </div>
             </form>
             <div class="note">
